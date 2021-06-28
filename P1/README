@@ -5,4 +5,4 @@ Per compilare i progetti è sufficiente clonare questo progetto e utilizzare il 
 3. make
 
 Nella cartella P1/prog_rtos/Src selezionare l'esperimento desiderato rinominandolo in main.c. Ad esempio, volendo riprodurre l'esperimento controllato main1_noslice_nosync_noape.c bisogna rinominare il file come main.c.
-Nel caso si voglia introdurre la politica di scheduling con timeslice bisogna modificare il file di configurazione di FreeRTOS.
+Nel caso si voglia introdurre la politica di scheduling con timeslice bisogna modificare il file di configurazione FreeRTOS.h e impostare configUSE_TIME_SLICING a 1
